@@ -26,5 +26,5 @@ int partition( std::vector< double > &a, int low, int high )
         if( i <= j )
             std::swap( a[i++] , a[j--]);
     }
-    return low;
+    return i;
 }
